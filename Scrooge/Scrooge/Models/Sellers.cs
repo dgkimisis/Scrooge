@@ -9,6 +9,7 @@ namespace Scrooge.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public List<Products> Products { get; set; }
+        public string Address { get; set; }
+        public ICollection<Products> Products { get; set; }
     }
 }

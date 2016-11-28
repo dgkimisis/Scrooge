@@ -11,6 +11,6 @@ namespace Scrooge.Models
         public string Name { get; set; }
         public int CategoryId { get; set; }
         public virtual Categories Category { get; set; }
-
+        public virtual ICollection<Prices> Prices {get; set; }
     }
 }

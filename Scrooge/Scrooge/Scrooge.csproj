@@ -134,12 +134,30 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201611271125153_InIt.cs" />
+    <Compile Include="Migrations\201611271125153_InIt.Designer.cs">
+      <DependentUpon>201611271125153_InIt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611271127486_b.cs" />
+    <Compile Include="Migrations\201611271127486_b.Designer.cs">
+      <DependentUpon>201611271127486_b.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611271130246_c.cs" />
+    <Compile Include="Migrations\201611271130246_c.Designer.cs">
+      <DependentUpon>201611271130246_c.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611271130555_d.cs" />
+    <Compile Include="Migrations\201611271130555_d.Designer.cs">
+      <DependentUpon>201611271130555_d.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Categories.cs" />
     <Compile Include="Models\Prices.cs" />
     <Compile Include="Models\Products.cs" />
     <Compile Include="Models\ScroogeContext.cs" />
     <Compile Include="Models\Sellers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\Repository.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
@@ -161,6 +179,20 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201611271125153_InIt.resx">
+      <DependentUpon>201611271125153_InIt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611271127486_b.resx">
+      <DependentUpon>201611271127486_b.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611271130246_c.resx">
+      <DependentUpon>201611271130246_c.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611271130555_d.resx">
+      <DependentUpon>201611271130555_d.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
