@@ -11,10 +11,11 @@ namespace Scrooge.Models
         public ScroogeContext() : base("name=ScroogeContext") { }
 
         public virtual DbSet <Categories> Categories { get; set; }
-        public virtual DbSet <DPCombos> Prices { get; set; }
+        public virtual DbSet <Prices> Prices { get; set; }
         public virtual DbSet <Products> Products { get; set; }
         public virtual DbSet <Sellers> Sellers { get; set; }
-        public virtual DbSet <Distinctions> Distinctions { get; set; }
+        public virtual DbSet<ItemKeys> ItemKeys { get; set; }
+        public virtual DbSet <ItemValues> ItemValues { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

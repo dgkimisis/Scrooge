@@ -12,11 +12,10 @@ namespace Scrooge.Models
         public string Address { get; set; }
         public string Phone { get; set; }
         public int PostalCode { get; set; }
-        public ICollection<DPCombos> DPCombos { get; set; }
-
-        internal void Where(Func<object, bool> p)
-        {
-            throw new NotImplementedException();
-        }
+        //Every Seller sells some items(itemvalues)
+        //in the table Prices, where a specific item 
+        //is being sold by a specific Seller in a 
+        //Specific Price
+        public ICollection<Prices> Prices { get; set; }
     }
 }

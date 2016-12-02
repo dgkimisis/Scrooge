@@ -154,18 +154,10 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201612011701148_InIt.cs" />
-    <Compile Include="Migrations\201612011701148_InIt.Designer.cs">
-      <DependentUpon>201612011701148_InIt.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201612020850049_ar.cs" />
-    <Compile Include="Migrations\201612020850049_ar.Designer.cs">
-      <DependentUpon>201612020850049_ar.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Categories.cs" />
-    <Compile Include="Models\Distinctions.cs" />
-    <Compile Include="Models\DPCombos.cs" />
+    <Compile Include="Models\ItemKeys.cs" />
+    <Compile Include="Models\ItemValues.cs" />
+    <Compile Include="Models\Prices.cs" />
     <Compile Include="Models\Products.cs" />
     <Compile Include="Models\ScroogeContext.cs" />
     <Compile Include="Models\Sellers.cs" />
@@ -192,18 +184,11 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\Images\" />
     <Folder Include="Repository\" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201612011701148_InIt.resx">
-      <DependentUpon>201612011701148_InIt.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201612020850049_ar.resx">
-      <DependentUpon>201612020850049_ar.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
