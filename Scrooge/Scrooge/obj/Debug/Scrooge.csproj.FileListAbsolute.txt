@@ -50,6 +50,4 @@ C:\Users\gkim\Desktop\ScroogeGit\Scrooge-Project-MVC\Scrooge\Scrooge\obj\Debug\S
 C:\Users\gkim\Desktop\ScroogeGit\Scrooge-Project-MVC\Scrooge\Scrooge\obj\Debug\Scrooge.pdb
 C:\Users\gkim\Desktop\ScroogeGit\Scrooge-Project-MVC\Scrooge\Scrooge\obj\Debug\Scrooge.Migrations.InIt.resources
 C:\Users\gkim\Desktop\ScroogeGit\Scrooge-Project-MVC\Scrooge\Scrooge\obj\Debug\Scrooge.csproj.GenerateResource.Cache
-C:\Users\gkim\Desktop\ScroogeGit\Scrooge-Project-MVC\Scrooge\Scrooge\obj\Debug\Scrooge.Migrations.b.resources
-C:\Users\gkim\Desktop\ScroogeGit\Scrooge-Project-MVC\Scrooge\Scrooge\obj\Debug\Scrooge.Migrations.c.resources
-C:\Users\gkim\Desktop\ScroogeGit\Scrooge-Project-MVC\Scrooge\Scrooge\obj\Debug\Scrooge.Migrations.d.resources
+C:\Users\gkim\Desktop\ScroogeGit\Scrooge-Project-MVC\Scrooge\Scrooge\obj\Debug\Scrooge.Migrations.ar.resources
